@@ -9,9 +9,57 @@
     background-size: cover;
 }
 
-aside{
+aside {
     width: 100px;
-    height: 1080px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.preto{
     background-color: #191919;
-    background-size: cover;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 54px;
+    margin-top: 2vh;
+    
+}
+
+h1{
+    font-size: 32px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    margin-bottom: 12vh;
+}
+
+.amarelo{
+    background-color: #FFB800;
+    width: 100%;
+    height: 40%; 
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.twitter{
+    width: 64px;
+    margin-bottom: 2vh;
+}
+
+.facebook{
+    width: 64px;
+    margin-bottom: 2vh;
+}
+
+.instagram{
+    width: 64px;
+    margin-bottom: 2vh;
 }
