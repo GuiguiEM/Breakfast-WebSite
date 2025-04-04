@@ -7,6 +7,7 @@
  body{
     background-image: url(img/Breakfast.jpg);
     background-size: cover;
+    display: flex;
 }
 
 aside {
@@ -62,4 +63,43 @@ h1{
 .instagram{
     width: 64px;
     margin-bottom: 2vh;
+}
+
+main{
+    background-color: #191919bf;
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+
+.talheres{
+    width: 104px;
+}
+
+p{
+    color: white;
+}
+
+section{
+    display: flex;
+}
+
+.section1{
+    background-color: white;
+    width: 860px;
+    height: 320px;
+    
+}
+
+.section2{
+    background-image: url(./img/Panquecas.png);
+    background-size: cover;
+    width: 480px;
+    height: 320px;
+    filter: blur(2px);
 }
