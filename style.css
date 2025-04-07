@@ -91,7 +91,7 @@ header{
 p{
     color: white;
     font-size: 36px;
-    
+    cursor: pointer;
 }
 
 section{
@@ -120,8 +120,22 @@ section{
     top: 50px;
     right: 0px;
     background-color: #FFB800;
-    border: none;
-    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 34px;
+    padding-right: 34px;
+    cursor: pointer;
+}
+
+.usuario{
+    width: 50px;
+    height: 50px;
+}
+
+.login{
+    color: white;
+    font-size: 32px;
 }
 
 .explore{
@@ -131,4 +145,9 @@ section{
     height: 80px;
     top: 490px;
     left: 800px;
+    padding: 26PX;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
 }
