@@ -33,7 +33,7 @@ aside {
     
 }
 
-h1{
+.sidetext{
     font-size: 32px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -73,7 +73,7 @@ main{
 .centro{
     background-color: #191919bf;
     width: 840px;
-    height: 68vh;
+    height: 66vh;
 }
 
 header{
@@ -94,6 +94,40 @@ p{
     cursor: pointer;
 }
 
+.text{
+    padding-left: 104px;
+    padding-top: 44px;
+}
+
+h1{
+    color: white;
+    font-size: 82px;
+    font-weight: bolder;
+}
+
+h2{
+    color: #727272;
+    font-size: 28px;
+    padding-right: 80px;
+    font-weight: lighter;
+}
+
+.explore{
+    background-color: #FFB800;
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    top: 494px;
+    left: 800px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section{
     display: flex;
 }
@@ -101,16 +135,73 @@ section{
 .section1{
     background-color: white;
     width: 620px;
-    height: 32vh;
+    height: 34vh;
+}
+
+.content{
+    padding-top: 22px;
+    padding-left: 32px;
+}
+
+h3{
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+h4{
+    padding-top: 8px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.lista{
+    padding-top: 8px;
+}
+
+h5{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer{
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+h6{
+    font-size: 22px;
+    font-weight: normal;
+    padding-right: 6px;
+}
+
+.seta{
+    width: 36px;
+    height: 36px;
 }
 
 .section2{
-    background-image: url(img/Panquecas.png);
-    background-size: cover;
     width: 540px;
-    height: 32vh;
+    height: 34vh;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     filter: blur(2px);
+}
+
+.play{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    filter: blur(0px);
 }
 
 .perfil{
@@ -136,18 +227,4 @@ section{
 .login{
     color: white;
     font-size: 32px;
-}
-
-.explore{
-    background-color: #FFB800;
-    position: absolute;
-    width: 280px;
-    height: 80px;
-    top: 490px;
-    left: 800px;
-    padding: 26PX;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
 }
